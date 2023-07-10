@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT lol-data-api:app
+web: gunicorn app:app --log-file=-
