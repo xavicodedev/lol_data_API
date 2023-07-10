@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT --call 'lol-data-api:create_app'
+web: waitress-serve --port=$PORT lol-data-api:app
