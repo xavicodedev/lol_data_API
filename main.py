@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 import csv
 
-app = Flask(__name__)
+app = Flask('lol-data-api')
 
 def get_league_data(file_name):
     data = []
